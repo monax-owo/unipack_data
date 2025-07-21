@@ -1,0 +1,1 @@
+give @a nether_star[max_stack_size=99,custom_name="Uni",item_model="gold_ingot",custom_data={uni:{}}] 1 

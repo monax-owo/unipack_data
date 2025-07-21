@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "id": "sunflower"
+    },
+    "title": "Uni",
+    "description": "TODO",
+    "announce_to_chat": false,
+    "background": "block/yellow_concrete_powder"
+  },
+  "criteria": {
+    "": {
+      "trigger": "tick"
+    }
+  }
+}
