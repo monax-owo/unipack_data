@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot",
+      "count": 1
+    },
+    "title": "",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "nether_star",
+            "components": {
+              "custom_data": {
+                "uni": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "uni:score/user/count"
+  }
+}
