@@ -16,7 +16,7 @@
       "conditions": {
         "items": [
           {
-            "items": "nether_star",
+            "items": "music_disc_far",
             "components": {
               "custom_data": {
                 "uni": {}
