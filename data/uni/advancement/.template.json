@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": {
+      "id": "barrier",
+      "count": 1
+    },
+    "title": "",
+    "description": ""
+  },
+  "parent": "uni:root",
+  "criteria": {},
+  "rewards": {}
+}
