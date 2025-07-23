@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "barrier"
+    },
+    "title": "競争原理",
+    "description": "ランキングで1位になる",
+    "announce_to_chat": false,
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "parent": "uni:root",
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  },
+  "rewards": {}
+}

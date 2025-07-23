@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "barrier"
+    },
+    "title": "見えざる手",
+    "description": "取引中に金額が変動した",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "uni:gold",
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  },
+  "rewards": {}
+}
