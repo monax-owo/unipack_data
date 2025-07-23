@@ -1,3 +1,5 @@
+# say score/admin/load
+
 scoreboard objectives add ranking dummy Ranking
 
 execute as @a[tag=admin] run scoreboard objectives setdisplay sidebar ranking
