@@ -9,6 +9,10 @@
     "hidden": false
   },
   "parent": "uni:root",
-  "criteria": {},
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  },
   "rewards": {}
 }
