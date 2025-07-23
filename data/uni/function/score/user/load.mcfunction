@@ -7,4 +7,4 @@ scoreboard players set #zero ranking 0
 scoreboard players set #value bronze 1
 scoreboard players set #value gold 100
 
-function uni:score/user/show
+function uni:score/user/init_score
