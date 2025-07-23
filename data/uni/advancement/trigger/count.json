@@ -16,7 +16,7 @@
       "conditions": {
         "items": [
           {
-            "items": "music_disc_far",
+            "items": ["music_disc_chirp", "music_disc_far"],
             "components": {
               "custom_data": {
                 "uni": {}
