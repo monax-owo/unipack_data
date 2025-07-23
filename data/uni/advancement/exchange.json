@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone"
+    },
+    "title": "等価交換",
+    "description": "初めて両替をする"
+  },
+  "parent": "uni:root",
+  "criteria": {
+    "": {
+      "trigger": "impossible"
+    }
+  }
+}
