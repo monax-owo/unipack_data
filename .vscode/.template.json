@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "barrier",
-      "count": 1
+      "id": "barrier"
     },
     "title": "",
     "description": "",

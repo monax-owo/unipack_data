@@ -1,12 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:gold_ingot",
-      "count": 1
+      "id": "minecraft:gold_ingot"
     },
     "title": "お金持ち",
-    "description": "初めて通貨を手にする",
-    "background": "block/gold_block"
+    "description": "初めて通貨を手にする"
   },
   "parent": "uni:root",
   "criteria": {
