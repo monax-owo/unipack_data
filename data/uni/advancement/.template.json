@@ -5,7 +5,9 @@
       "count": 1
     },
     "title": "",
-    "description": ""
+    "description": "",
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "uni:root",
   "criteria": {},
