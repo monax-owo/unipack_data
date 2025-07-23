@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "id": "sunflower"
+      "id": "carrot_on_a_stick"
     },
-    "title": "Uni",
-    "description": "TODO",
+    "title": "資本主義",
+    "description": "資本主義の世界へようこそ",
     "announce_to_chat": false,
     "background": "block/yellow_concrete_powder"
   },
