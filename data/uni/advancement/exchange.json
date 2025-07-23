@@ -1,12 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:stone"
+      "id": "bundle"
     },
     "title": "等価交換",
     "description": "初めて両替をする"
   },
-  "parent": "uni:root",
+  "parent": "uni:gold",
   "criteria": {
     "": {
       "trigger": "impossible"
