@@ -1,2 +1,0 @@
-# TODO
-$data modify block $(location) Items set value [{count: $(count), Slot: 10b, components: {"!minecraft:jukebox_playable": {}, "minecraft:max_stack_size": 50, "minecraft:custom_name": "Uni", "minecraft:custom_model_data": {strings: ["uni"]}, "minecraft:custom_data": {uni: {}}}, id: "minecraft:music_disc_chirp"}, {count: $(count), Slot: 14b, components: {"!minecraft:jukebox_playable": {}, "minecraft:max_stack_size": 50, "minecraft:custom_name": "Uni", "minecraft:custom_model_data": {strings: ["uni"]}, "minecraft:custom_data": {uni: {}}}, id: "minecraft:music_disc_far"}]
