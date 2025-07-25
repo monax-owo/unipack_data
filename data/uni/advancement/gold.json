@@ -22,8 +22,28 @@
           }
         ]
       }
+    },
+    "bronze": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "music_disc_chirp",
+            "components": {
+              "custom_data": {
+                "uni": {}
+              }
+            }
+          }
+        ]
+      }
     }
   },
-  "requirements": [["gold"]],
+  "requirements": [
+    [
+      "bronze",
+      "gold"
+    ]
+  ],
   "rewards": {}
 }
