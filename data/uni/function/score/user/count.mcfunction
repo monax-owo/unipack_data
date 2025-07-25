@@ -13,5 +13,3 @@ scoreboard players operation @s gold *= #value gold
 scoreboard players operation @s ranking = #zero ranking
 scoreboard players operation @s ranking += @s bronze
 scoreboard players operation @s ranking += @s gold
-
-function uni:score/user/show
