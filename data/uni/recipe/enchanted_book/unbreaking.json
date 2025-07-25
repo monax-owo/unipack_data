@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iCi",
+    "LBL",
+    "LLL"
+  ],
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "C": "minecraft:copper_block",
+    "L": "minecraft:lapis_lazuli",
+    "B": "minecraft:book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "stored_enchantments": {
+        "unbreaking": 1
+      }
+    }
+  }
+}

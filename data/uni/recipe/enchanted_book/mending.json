@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    "DBD",
+    "DHD"
+  ],
+  "key": {
+    "#": "minecraft:lapis_block",
+    "E": "minecraft:end_crystal",
+    "D": "minecraft:diamond_block",
+    "B": "minecraft:book",
+    "H": "minecraft:enchanted_golden_apple"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "stored_enchantments": {
+        "mending": 1
+      }
+    }
+  }
+}
