@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "GEG",
+    "GGG"
+  ],
+  "key": {
+    "#": "#minecraft:planks",
+    "G": "minecraft:glass",
+    "E": "minecraft:emerald"
+  },
+  "result": {
+    "id": "minecraft:experience_bottle",
+    "count": 1
+  }
+}

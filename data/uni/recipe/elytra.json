@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#/#",
+    "PRP",
+    "PEP"
+  ],
+  "key": {
+    "#": "minecraft:diamond",
+    "/": "minecraft:blaze_rod",
+    "P": "minecraft:phantom_membrane",
+    "R": "minecraft:recovery_compass",
+    "E": "minecraft:echo_shard"
+  },
+  "result": {
+    "id": "minecraft:elytra",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    "DGD",
+    "LDL"
+  ],
+  "key": {
+    "#": "minecraft:gold_block",
+    "E": "minecraft:end_crystal",
+    "D": "minecraft:diamond",
+    "G": "minecraft:golden_apple",
+    "L": "minecraft:lapis_block"
+  },
+  "result": {
+    "id": "minecraft:enchanted_golden_apple",
+    "count": 1
+  }
+}
