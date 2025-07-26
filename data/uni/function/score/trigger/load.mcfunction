@@ -3,3 +3,5 @@ scoreboard objectives add trigger_drop_gold minecraft.dropped:minecraft.music_di
 
 scoreboard players set @a trigger_drop_bronze 0
 scoreboard players set @a trigger_drop_gold 0
+
+execute as @a run function uni:score/trigger/schedule/check_drop

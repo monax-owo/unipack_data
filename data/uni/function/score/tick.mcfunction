@@ -1,1 +1,0 @@
-function uni:score/trigger/tick
