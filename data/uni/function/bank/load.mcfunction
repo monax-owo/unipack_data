@@ -1,6 +1,5 @@
-say bank/load
-
 data remove storage uni:bank_money storage
+
 function uni:bank/load/util {count: 1, slot: 0, id: "minecraft:music_disc_far"}
 function uni:bank/load/util {count: 5, slot: 1, id: "minecraft:music_disc_far"}
 function uni:bank/load/util {count: 10, slot: 2, id: "minecraft:music_disc_far"}
