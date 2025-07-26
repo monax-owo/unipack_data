@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "barrier"
+    },
+    "title": "",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "": {
+      "trigger": "tick"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "uni:elytra",
+      "uni:enchanted_book/mending",
+      "uni:enchanted_book/protection",
+      "uni:enchanted_book/unbreaking",
+      "uni:enchanted_golden_apple",
+      "uni:experience_bottle",
+      "uni:totem_of_undying",
+      "uni:trident"
+    ]
+  }
+}
