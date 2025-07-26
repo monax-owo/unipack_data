@@ -1,2 +1,3 @@
-$execute if data entity @s {EnderItems: [{Slot: $(slot)b, id: "minecraft:music_disc_chirp", components: {"minecraft:custom_data": {uni: {}}}}]} \
-run execute store result score @s ender_bronze run data get entity @s EnderItems[$(slot)].count
+# slot, index
+$function uni:score/user/ender_items/if {slot: $(slot), index: $(index), id: "minecraft:music_disc_chirp", score_name: ender_bronze}
+$function uni:score/user/ender_items/if {slot: $(slot), index: $(index), id: "minecraft:music_disc_far", score_name: ender_gold}
