@@ -9,6 +9,7 @@
     "announce_to_chat": false,
     "hidden": true
   },
+  "parent": "uni:root",
   "criteria": {
     "": {
       "trigger": "tick"
