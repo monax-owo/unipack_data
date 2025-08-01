@@ -1,5 +1,5 @@
-scoreboard players set @s ender_bronze 0
-scoreboard players set @s ender_gold 0
+scoreboard players set @s ender_bronze_count 0
+scoreboard players set @s ender_gold_count 0
 
 function uni:score/user/ender_items/count_slot {slot: 0}
 function uni:score/user/ender_items/count_slot {slot: 1}
@@ -29,7 +29,7 @@ function uni:score/user/ender_items/count_slot {slot: 24}
 function uni:score/user/ender_items/count_slot {slot: 25}
 function uni:score/user/ender_items/count_slot {slot: 26}
 
-scoreboard players set @s ender_bronze_index 0
-scoreboard players set @s ender_gold_index 0
+scoreboard players set @s ender_bronze_count_index 0
+scoreboard players set @s ender_gold_count_index 0
 
 say ""
