@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#GR",
+    "LBL",
+    "LLL"
+  ],
+  "key": {
+    "#": "minecraft:soul_sand",
+    "G": "minecraft:golden_boots",
+    "R": "minecraft:rabbit_foot",
+    "L": "minecraft:lapis_lazuli",
+    "B": "minecraft:book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "stored_enchantments": {
+        "soul_speed": 1
+      }
+    }
+  }
+}

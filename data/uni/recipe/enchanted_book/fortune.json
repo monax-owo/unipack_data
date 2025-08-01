@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/E/",
+    "LBL",
+    "DLD"
+  ],
+  "key": {
+    "/": "minecraft:blaze_rod",
+    "E": "minecraft:enchanted_golden_apple",
+    "L": "minecraft:lapis_block",
+    "B": "minecraft:book",
+    "D": "minecraft:diamond_pickaxe"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "stored_enchantments": {
+        "fortune": 1
+      }
+    }
+  }
+}

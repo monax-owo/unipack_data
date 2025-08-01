@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#WG",
+    "LBL",
+    "LLL"
+  ],
+  "key": {
+    "#": "minecraft:gunpowder",
+    "W": "minecraft:wind_charge",
+    "G": "minecraft:golden_sword",
+    "L": "minecraft:lapis_lazuli",
+    "B": "minecraft:book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "stored_enchantments": {
+        "knockback": 1
+      }
+    }
+  }
+}

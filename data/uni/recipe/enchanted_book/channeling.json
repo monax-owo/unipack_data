@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#TL",
+    "PBP",
+    "PPP"
+  ],
+  "key": {
+    "#": "minecraft:amethyst_shard",
+    "T": "minecraft:trident",
+    "L": "minecraft:lightning_rod",
+    "P": "minecraft:lapis_lazuli",
+    "B": "minecraft:book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "stored_enchantments": {
+        "channeling": 1
+      }
+    }
+  }
+}
