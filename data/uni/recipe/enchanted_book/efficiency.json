@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G#",
+    "LBL",
+    "LLL"
+  ],
+  "key": {
+    "#": "minecraft:redstone_block",
+    "G": "minecraft:golden_pickaxe",
+    "L": "minecraft:lapis_lazuli",
+    "B": "minecraft:book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "stored_enchantments": {
+        "efficiency": 1
+      }
+    }
+  }
+}

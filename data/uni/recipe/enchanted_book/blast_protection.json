@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#SG",
+    "LBL",
+    "LLL"
+  ],
+  "key": {
+    "#": "minecraft:tnt",
+    "S": "minecraft:shield",
+    "G": "minecraft:golden_chestplate",
+    "L": "minecraft:lapis_lazuli",
+    "B": "minecraft:book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "stored_enchantments": {
+        "blast_protection": 1
+      }
+    }
+  }
+}

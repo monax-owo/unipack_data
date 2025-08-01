@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#GF",
+    "LBL",
+    "LLL"
+  ],
+  "key": {
+    "#": "minecraft:grindstone",
+    "G": "minecraft:golden_sword",
+    "F": "minecraft:fermented_spider_eye",
+    "L": "minecraft:lapis_lazuli",
+    "B": "minecraft:book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "stored_enchantments": {
+        "sharpness": 1
+      }
+    }
+  }
+}
