@@ -1,3 +1,8 @@
+scoreboard objectives add ender_bronze dummy ender_bronze
+scoreboard players set @a ender_bronze 0
+scoreboard objectives add ender_gold dummy ender_gold
+scoreboard players set @a ender_gold 0
+
 scoreboard objectives add ender_bronze_count dummy ender_bronze_count
 scoreboard players set @a ender_bronze_count 0
 scoreboard objectives add ender_gold_count dummy ender_gold_count

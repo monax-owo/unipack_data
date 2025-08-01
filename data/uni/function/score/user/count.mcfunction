@@ -10,6 +10,9 @@ scoreboard players operation @s bronze *= #value bronze
 scoreboard players operation @s gold *= #value gold
 
 # set ranking
-scoreboard players operation @s ranking = #zero ranking
+scoreboard players set @s ranking 0
 scoreboard players operation @s ranking += @s bronze
 scoreboard players operation @s ranking += @s gold
+
+scoreboard players operation @s ranking += @s ender_bronze
+scoreboard players operation @s ranking += @s ender_gold
