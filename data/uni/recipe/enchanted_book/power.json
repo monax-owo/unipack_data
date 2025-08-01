@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#BA",
+    "LIL",
+    "LLL"
+  ],
+  "key": {
+    "#": "minecraft:spyglass",
+    "B": "minecraft:bow",
+    "A": "minecraft:arrow",
+    "L": "minecraft:lapis_lazuli",
+    "I": "minecraft:book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "stored_enchantments": {
+        "power": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/G/",
+    "LBL",
+    "DLD"
+  ],
+  "key": {
+    "/": "minecraft:blaze_rod",
+    "G": "minecraft:golden_apple",
+    "L": "minecraft:lapis_block",
+    "B": "minecraft:book",
+    "D": "minecraft:diamond_sword"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "stored_enchantments": {
+        "looting": 1
+      }
+    }
+  }
+}

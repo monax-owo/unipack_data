@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#GF",
+    "LBL",
+    "LLL"
+  ],
+  "key": {
+    "#": "minecraft:phantom_membrane",
+    "G": "minecraft:golden_boots",
+    "F": "minecraft:feather",
+    "L": "minecraft:lapis_lazuli",
+    "B": "minecraft:book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "stored_enchantments": {
+        "feather_falling": 1
+      }
+    }
+  }
+}

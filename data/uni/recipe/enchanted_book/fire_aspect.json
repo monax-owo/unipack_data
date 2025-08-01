@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#GM",
+    "LBL",
+    "LLL"
+  ],
+  "key": {
+    "#": "minecraft:blaze_powder",
+    "G": "minecraft:golden_sword",
+    "M": "minecraft:magma_cream",
+    "L": "minecraft:lapis_lazuli",
+    "B": "minecraft:book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "stored_enchantments": {
+        "fire_aspect": 1
+      }
+    }
+  }
+}

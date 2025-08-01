@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#G#",
+    "LBL",
+    "LLL"
+  ],
+  "key": {
+    "#": "minecraft:cactus",
+    "G": "minecraft:golden_chestplate",
+    "L": "minecraft:lapis_lazuli",
+    "B": "minecraft:book"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "stored_enchantments": {
+        "thorns": 1
+      }
+    }
+  }
+}
