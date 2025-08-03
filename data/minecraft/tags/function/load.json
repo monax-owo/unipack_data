@@ -1,3 +1,7 @@
 {
-  "values": ["uni:score/load", "uni:bank/load"]
+  "values": [
+    "uni:bank/load",
+    "uni:score/load",
+    "uni:shop/load"
+  ]
 }
