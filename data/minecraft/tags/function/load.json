@@ -2,6 +2,7 @@
   "values": [
     "uni:bank/load",
     "uni:score/load",
-    "uni:shop/load"
+    "uni:shop/load",
+    "uni:util/load"
   ]
 }
