@@ -1,7 +1,8 @@
-data remove storage uni:shop stock.items
+data remove storage uni:shop stock
 
-data modify storage uni:shop stock.items set value []
+data modify storage uni:shop stock merge value {items: []}
 
+# template
 # data modify storage uni:shop stock.items append value {id: "", translate: }
 
 data modify storage uni:shop stock.items append value {id: "minecraft:oak_log", translate: block.minecraft.oak_log}
