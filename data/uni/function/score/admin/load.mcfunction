@@ -2,5 +2,5 @@
 
 scoreboard objectives add ranking dummy Ranking
 
-function uni:score/admin/team
-function uni:score/admin/sidebar
+function uni:score/admin/_team
+function uni:score/admin/set_sidebar
