@@ -4,7 +4,7 @@
 
 data modify storage uni:shop stock_temp_0 set value ""
 
-$function uni:shop/store_translate with storage uni:shop stock.items[$(index)]
+$function uni:shop/_store_translate with storage uni:shop stock.items[$(index)]
 
 data modify entity @s text set value {storage:"uni:shop", nbt: "stock_temp_0", interpret: true, color: "yellow", extra: [{text: ": ", color: "aqua"}]}
 $execute unless data storage uni:shop stock.items[$(index)].count run data modify storage uni:shop stock.items[$(index)].count set value 0
