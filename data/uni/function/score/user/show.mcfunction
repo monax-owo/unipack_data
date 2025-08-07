@@ -1,1 +1,1 @@
-execute as @a[tag=user] run title @s actionbar {text:"",extra:[{score:{name:"@s",objective:"ranking"}}," Uni"]}
+execute as @a[tag=user] run title @s actionbar {score: {name: "@s", objective: "ranking"}, extra: [" Uni"]}
