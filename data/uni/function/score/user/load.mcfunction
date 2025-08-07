@@ -1,5 +1,3 @@
-# say score/user/load
-
 scoreboard objectives add gold dummy gold
 scoreboard objectives add bronze dummy bronze
 

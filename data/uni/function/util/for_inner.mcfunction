@@ -1,3 +1,5 @@
+# command, max
+
 $$(command)
 
 # debug
