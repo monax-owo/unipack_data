@@ -1,1 +1,1 @@
-function uni:score/user/ender_items/schedule
+function uni:shop/stock/count/schedule

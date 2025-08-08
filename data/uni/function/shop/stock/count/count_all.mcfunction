@@ -1,2 +1,2 @@
 # TODO
-# function uni:util/for {function: "uni:score/user/ender_items/count_slot", max: 26}
+# function uni:util/for {function: "uni:shop/stock/count/if {slot,id,score,TODO}", max: 26}
