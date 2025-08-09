@@ -1,7 +1,7 @@
 scoreboard players set @s ender_bronze_count 0
 scoreboard players set @s ender_gold_count 0
 
-function uni:util/for {function: "uni:score/user/ender_items/count_slot", max: 26}
+function util:for {function: "uni:score/user/ender_items/count_slot", max: 26}
 
 scoreboard players set @s ender_bronze_count_index 0
 scoreboard players set @s ender_gold_count_index 0
