@@ -1,2 +1,2 @@
-# for
-scoreboard objectives add for_temp dummy
+# for_command
+scoreboard objectives add for_command_temp dummy
