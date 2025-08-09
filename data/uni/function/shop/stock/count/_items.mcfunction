@@ -1,4 +1,4 @@
-# index, value
+# {index, value}
 
 $data modify storage uni:shop stock_temp__items set value $(value)
 

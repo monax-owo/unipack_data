@@ -1,4 +1,4 @@
-# command, max
+# {command, max}
 
 # init
 data modify storage uni:index index set value 0

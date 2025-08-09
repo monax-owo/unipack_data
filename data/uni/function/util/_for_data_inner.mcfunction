@@ -1,4 +1,4 @@
-# command, data, index, for_id
+# {command, data, index, for_id}
 
 $data modify storage uni:index for_data_args_$(for_id).value set from $(data)[$(index)]
 

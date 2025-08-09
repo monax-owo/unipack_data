@@ -1,4 +1,4 @@
-# index, value
+# {index, value}
 
 $say $(value)
 $data modify storage uni:shop stock_temp__blocks set value "$(value)"

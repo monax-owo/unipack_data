@@ -1,4 +1,4 @@
-# command, data, for_id
+# {command, data, for_id}
 
 # init
 $scoreboard objectives add for_data_temp_$(for_id) dummy

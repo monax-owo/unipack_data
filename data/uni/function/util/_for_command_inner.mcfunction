@@ -1,4 +1,4 @@
-# command, max
+# {command, max}
 
 $$(command)
 

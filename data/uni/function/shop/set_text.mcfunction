@@ -1,4 +1,4 @@
-# index
+# {index}
 
 # $data modify entity @s text set value {text: "", extra: [{translate: "%s", with: [{storage: "uni:shop", nbt: "stock[$(index)].id"}]}]}
 
