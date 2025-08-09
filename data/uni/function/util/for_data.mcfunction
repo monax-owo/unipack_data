@@ -1,18 +1,22 @@
-# command, data
+# command, data, for_id
 
 # init
-scoreboard players set #index for_data_temp 0
+$scoreboard objectives add for_data_temp_$(for_id) dummy
+$scoreboard players set #index for_data_temp_$(for_id) 0
 
 # init args
-data modify storage uni:index for_data_args set value {}
-$data modify storage uni:index for_data_args.command set value "$(command)"
-$data modify storage uni:index for_data_args.data set value "$(data)"
-data modify storage uni:index for_data_args.index set value 0
+$data modify storage uni:index for_data_args_$(for_id) set value {}
 
-$execute if data $(data)[0] run function uni:util/_for_data_inner with storage uni:index for_data_args
+$data modify storage uni:index for_data_args_$(for_id).command set value "$(command)"
+$data modify storage uni:index for_data_args_$(for_id).data set value "$(data)"
+$data modify storage uni:index for_data_args_$(for_id).for_id set value "$(for_id)"
+$data modify storage uni:index for_data_args_$(for_id).index set value 0
+
+$execute if data $(data)[0] run function uni:util/_for_data_inner with storage uni:index for_data_args_$(for_id)
 
 # clear
-scoreboard players set #index for_data_temp 0
+$scoreboard players set #index for_data_temp_$(for_id) 0
 
 # clear args
-data remove storage uni:index for_data_args
+$scoreboard objectives remove for_data_temp_$(for_id)
+$data remove storage uni:index for_data_args_$(for_id)
