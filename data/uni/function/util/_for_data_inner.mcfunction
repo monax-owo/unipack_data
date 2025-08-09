@@ -4,7 +4,7 @@ $$(command)
 
 # debug
 # tellraw @a {score: {name:"#index", objective: "for_data_temp"}}
-# tellraw @a {storage: "uni:index", nbt: "index"}
+# tellraw @a {storage: "uni:index", nbt: "for_data_args.index"}
 
 # increment
 scoreboard players add #index for_data_temp 1
