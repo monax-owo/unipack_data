@@ -6,4 +6,4 @@ data modify storage uni:shop stock_temp_count.id set from storage uni:shop stock
 # debug
 # tellraw @a {storage: "uni:shop", nbt: "stock_temp_count.id"}
 
-function util:for {function: "uni:shop/stock/count/_each_slots", max: 26}
+function uni:shop/stock/count/_find_slot with storage uni:shop stock_temp_count
