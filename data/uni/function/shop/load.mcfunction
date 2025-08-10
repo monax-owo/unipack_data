@@ -1,4 +1,4 @@
-data remove storage uni:shop stock
+data remove storage uni:shop stock.items
 
 data modify storage uni:shop stock merge value {items: []}
 
