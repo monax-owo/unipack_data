@@ -14,4 +14,6 @@ data modify storage uni:shop stock.items append value {id: "minecraft:lapis_lazu
 data modify storage uni:shop stock.items append value {id: "minecraft:diamond", translate: item.minecraft.diamond}
 data modify storage uni:shop stock.items append value {id: "minecraft:bread", translate: item.minecraft.bread}
 
+function util:for_data {command: "function uni:shop/_set_zero with storage uni:index for_data_args_0", data: "storage uni:shop stock.items", for_id: 0}
+
 function uni:shop/stock/load
