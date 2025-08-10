@@ -3,4 +3,4 @@
 
 function uni:shop/stock/count/start
 
-# schedule function uni:score/user/ender_items/schedule 5s
+schedule function uni:shop/stock/count/schedule 20s
