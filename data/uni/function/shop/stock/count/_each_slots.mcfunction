@@ -1,0 +1,3 @@
+# {index}
+
+$say $(index)
