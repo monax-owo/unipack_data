@@ -1,5 +1,6 @@
 # {count, slot, id}
 
+# TODO: give_gold,give_bronzeに合わせる
 $data modify storage uni:bank_money storage append value \
 { \
   "count": $(count), \
@@ -7,7 +8,7 @@ $data modify storage uni:bank_money storage append value \
   "components": { \
     "!minecraft:jukebox_playable": {}, \
     "minecraft:max_stack_size": 50, \
-    "minecraft:custom_name": "Uni", \
+    "minecraft:item_name": "Uni", \
     "minecraft:custom_model_data": { \
       "strings": [ \
         "uni" \
