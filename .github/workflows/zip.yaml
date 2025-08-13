@@ -15,7 +15,9 @@ jobs:
       - uses: actions/checkout@v5
 
       - name: Archive
-        run: zip -r dist/unipack_resource_${GITHUB_REF_NAME}.zip . -x ".git/*" ".github/*" ".template/*" ".vscode/*" "dist/*" ".gitignore"
+        run: |
+          mkdir dist
+          zip -r dist/unipack_resource_${GITHUB_REF_NAME}.zip . -x ".git/*" ".github/*" ".template/*" ".vscode/*" "dist/*" ".gitignore"
 
       - name: Tree
         run: |
