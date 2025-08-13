@@ -5,6 +5,9 @@ on:
   push:
     tags: "v*.*.*"
 
+env:
+  prefix: unipack_data
+
 jobs:
   zip:
     runs-on: ubuntu-latest
@@ -17,7 +20,7 @@ jobs:
       - name: Archive
         run: |
           mkdir dist
-          zip -r dist/unipack_resource_${GITHUB_REF_NAME}.zip . -x ".git/*" ".github/*" ".template/*" ".vscode/*" "dist/*" ".gitignore"
+          zip -r dist/${prefix}_${GITHUB_REF_NAME}.zip . -x ".*/*" "dist/*" ".gitignore"
 
       - name: Release
         uses: softprops/action-gh-release@v2
