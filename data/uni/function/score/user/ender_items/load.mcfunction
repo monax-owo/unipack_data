@@ -3,17 +3,17 @@ scoreboard players set @a ender_bronze 0
 scoreboard objectives add ender_gold dummy ender_gold
 scoreboard players set @a ender_gold 0
 
-scoreboard objectives add ender_bronze_count dummy ender_bronze_count
+scoreboard objectives add ender_bronze_count dummy
 scoreboard players set @a ender_bronze_count 0
-scoreboard objectives add ender_gold_count dummy ender_gold_count
+scoreboard objectives add ender_gold_count dummy
 scoreboard players set @a ender_gold_count 0
 
-scoreboard objectives add ender_bronze_count_temp dummy ender_bronze_count_temp
+scoreboard objectives add ender_bronze_count_temp dummy
 scoreboard players set @a ender_bronze_count_temp 0
-scoreboard objectives add ender_gold_count_temp dummy ender_gold_count_temp
+scoreboard objectives add ender_gold_count_temp dummy
 scoreboard players set @a ender_gold_count_temp 0
 
-scoreboard objectives add ender_bronze_count_index dummy ender_bronze_count_index
+scoreboard objectives add ender_bronze_count_index dummy
 scoreboard players set @a ender_bronze_count_index 0
-scoreboard objectives add ender_gold_count_index dummy ender_gold_count_index
+scoreboard objectives add ender_gold_count_index dummy
 scoreboard players set @a ender_gold_count_index 0
