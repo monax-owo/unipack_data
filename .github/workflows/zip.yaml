@@ -19,16 +19,6 @@ jobs:
           mkdir dist
           zip -r dist/unipack_resource_${GITHUB_REF_NAME}.zip . -x ".git/*" ".github/*" ".template/*" ".vscode/*" "dist/*" ".gitignore"
 
-      - name: Tree
-        run: |
-          pwd
-          tree
-
-      - name: ls
-        run: |
-          cd dist
-          ls -lh
-
       - name: Release
         uses: softprops/action-gh-release@v2
         if: github.ref_type == 'tag'
