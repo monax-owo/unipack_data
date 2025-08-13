@@ -2,9 +2,9 @@ name: Zip
 
 on:
   push:
+    workflow_dispatch:
     tags:
       - 'v*.*.*'
-    workflow_dispatch:
 
 jobs:
   build:
