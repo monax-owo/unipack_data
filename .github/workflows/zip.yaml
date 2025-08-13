@@ -7,6 +7,7 @@ on:
 
 env:
   prefix: unipack_data
+  ignore: '".*/*" "dist/*" ".gitignore" "*/dev/*"'
 
 jobs:
   zip:
@@ -20,7 +21,7 @@ jobs:
       - name: Archive
         run: |
           mkdir dist
-          zip -r dist/${prefix}_${GITHUB_REF_NAME}.zip . -x ".*/*" "dist/*" ".gitignore"
+          zip -r dist/${prefix}_${GITHUB_REF_NAME}.zip . -x ${ignore}
 
       - name: Release
         uses: softprops/action-gh-release@v2
