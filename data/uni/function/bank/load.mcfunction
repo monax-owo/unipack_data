@@ -1,3 +1,7 @@
+# casher
+function uni:bank/casher/load
+
+# bank
 data remove storage uni:bank_money storage
 
 function uni:bank/_util/_store_gold {count: 1, slot: 0}
