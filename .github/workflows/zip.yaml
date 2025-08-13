@@ -22,3 +22,9 @@ jobs:
         run: |
           pwd
           tree
+
+      - name: Upload a Artifact
+        uses: actions/upload-artifact@v4.6.2
+        with: 
+          name: zip
+          files: dist/
