@@ -13,16 +13,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v5
-        
-      - run: git status
 
-      - run: mkdir dist
-
-      - name: Git Archive
-        working-directory: dist
-        run: |
-          echo ${GITHUB_REF_NAME}
-          git archive HEAD -o unipack_resource_${GITHUB_REF_NAME}.zip
+      - name: Archive
+        run: zip -r dist/unipack_resource_${GITHUB_REF_NAME}.zip . -x ".git/*" ".github/*" ".template/*" ".vscode/*" "dist/*" ".gitignore"
 
       - name: Tree
         run: |
@@ -38,5 +31,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         if: github.ref_type == 'tag'
         with:
-          files: |
-            dist/*
+          files: dist/*
