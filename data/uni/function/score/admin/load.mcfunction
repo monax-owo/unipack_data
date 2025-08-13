@@ -1,6 +1,6 @@
-# say score/admin/load
-
 scoreboard objectives add ranking dummy Ranking
 
-function uni:score/admin/_team
+team add admin
+team modify admin color gold
+
 function uni:score/admin/set_sidebar
