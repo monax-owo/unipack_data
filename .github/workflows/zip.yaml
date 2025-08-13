@@ -18,7 +18,7 @@ jobs:
 
       - name: Git Archive
         working-directory: dist
-        run: git archive ${GITHUB_REF_NAME} -o unipack_resource_${GITHUB_REF_NAME}.zip
+        run: git archive HEAD -o unipack_resource_${GITHUB_REF_NAME}.zip
 
       - name: Tree
         run: |
