@@ -17,7 +17,9 @@ jobs:
           cd dist
 
       - name: Git Archive
-        run: git archive ${GITHUB_REF_NAME} -o=unipack_resource_${GITHUB_REF_NAME}.zip
+        run: |
+          pwd
+          git archive ${GITHUB_REF_NAME} -o unipack_resource_${GITHUB_REF_NAME}.zip
 
       - run: cd ..
 
