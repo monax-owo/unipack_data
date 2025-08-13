@@ -16,11 +16,9 @@ jobs:
 
       - name: Git Archive
         working-directory: dist
-        run: |
-          pwd
-          git archive ${GITHUB_REF_NAME} -o unipack_resource_${GITHUB_REF_NAME}.zip
-
-      - run: cd ..
+        run: git archive ${GITHUB_REF_NAME} -o unipack_resource_${GITHUB_REF_NAME}.zip
 
       - name: Tree
-        run: tree
+        run: |
+          pwd
+          tree
