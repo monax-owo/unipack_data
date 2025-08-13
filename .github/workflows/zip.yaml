@@ -12,8 +12,14 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - run: |
+          mkdir dist
+          cd dist
+
       - name: Git Archive
         run: git archive ${GITHUB_REF_NAME} --prefix=dist --output=unipack_resource_${GITHUB_REF_NAME}.zip
+
+      - run: cd ..
 
       - name: Tree
         run: tree
