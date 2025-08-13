@@ -28,4 +28,4 @@ jobs:
         if: github.ref_type == 'tag'
         with:
           files: dist/*
-          token: ${{ github.token }}
+          token: ${{ secrets.GITHUB_TOKEN }}
