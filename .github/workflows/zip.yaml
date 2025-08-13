@@ -6,7 +6,7 @@ on:
     tags: "v*.*.*"
 
 jobs:
-  build:
+  zip:
     runs-on: ubuntu-latest
 
     steps:
