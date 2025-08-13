@@ -11,9 +11,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v5
+      
+      - run: mkdir dist
 
       - name: Git Archive
-        working-directory: "dist"
+        working-directory: dist
         run: |
           pwd
           git archive ${GITHUB_REF_NAME} -o unipack_resource_${GITHUB_REF_NAME}.zip
