@@ -1,1 +1,1 @@
-execute as @a[tag=user] run function uni:score/user/show
+execute as @a run function uni:score/user/show
