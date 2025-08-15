@@ -1,6 +1,6 @@
 # {count, slot}
 
-$data modify storage uni:bank_money storage append value \
+$data modify storage uni:bank money.storage append value \
 { \
   "count": $(count), \
   "Slot": $(slot), \

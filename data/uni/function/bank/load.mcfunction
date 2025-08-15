@@ -2,7 +2,7 @@
 function uni:bank/casher/load
 
 # bank
-data remove storage uni:bank_money storage
+data remove storage uni:bank money.storage
 
 function uni:bank/_util/_store_gold {count: 1, slot: 0}
 function uni:bank/_util/_store_gold {count: 4, slot: 2}
