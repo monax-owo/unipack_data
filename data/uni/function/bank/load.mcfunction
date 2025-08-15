@@ -1,5 +1,5 @@
-# casher
-function uni:bank/casher/load
+# cashier
+function uni:bank/cashier/load
 
 # bank
 data remove storage uni:bank money.storage
