@@ -1,6 +1,9 @@
+# {rotate_1: int, rotate_2: int}
+# rotate_1 = rotate_2 + 180
+
 summon minecraft:item_display ~ ~ ~ {Tags: ["test", "cashier"], item: {components: {"minecraft:custom_model_data": {strings: ["register"]}}, count: 1, id: "minecraft:quartz_slab"}, Rotation: [180, 0]}
 
-execute positioned ~-.5 ~-.5 ~-.5 run function uni:bank/cashier/_summon_keys
+execute positioned ~ ~ ~ rotated 0 0 run function uni:bank/cashier/_summon_keys
 
 function util:for_command {command: "execute as @e[limit=1, tag=cashier] run function uni:bank/cashier/_summon_mount", max: 12}
 
