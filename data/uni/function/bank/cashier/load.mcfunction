@@ -15,8 +15,3 @@ scoreboard objectives add _cashier_10key_multiplier dummy
 
 # set const
 scoreboard players set #value _cashier_10key_multiplier 10
-
-# set zero
-scoreboard players set @e[tag=cashier] _cashier_10key_count 0
-scoreboard players set @e[tag=cashier] _cashier_10key_input 0
-scoreboard players set @e[tag=cashier] _cashier_10key_multiplier 1
