@@ -1,1 +1,1 @@
-execute as @e[type=interaction, tag=cashier] if data entity @s interaction run function uni:bank/cashier/_right_click
+execute as @e[type=interaction, tag=cashier_key] if data entity @s attack run function uni:bank/cashier/_on_press
