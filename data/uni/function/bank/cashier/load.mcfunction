@@ -11,7 +11,6 @@ scoreboard players set @e[tag=cashier] _cashier_gold 0
 # cashier
 scoreboard objectives add _cashier_10key_count dummy
 scoreboard objectives add _cashier_10key_input dummy
-scoreboard objectives add _cashier_10key_multiplier dummy
 
 # set const
-scoreboard players set #value _cashier_10key_multiplier 10
+scoreboard players set #value _cashier_10key_input 10
