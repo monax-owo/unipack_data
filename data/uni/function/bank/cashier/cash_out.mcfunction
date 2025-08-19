@@ -1,4 +1,4 @@
 # {value: int}
 
-$scoreboard players set @s _cashier_input $(value)
+$scoreboard players set @s cashier_input $(value)
 function uni:bank/cashier/_calc
