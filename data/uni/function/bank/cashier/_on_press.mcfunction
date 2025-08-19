@@ -8,4 +8,4 @@ execute if score @e[limit=1, sort=nearest, tag=cashier] _cashier_10key_input mat
 execute as @e[limit=1, sort=nearest, tag=cashier] run function uni:bank/cashier/_match_keys
 
 # clear
-data remove entity @s attack
+data remove entity @s interaction
