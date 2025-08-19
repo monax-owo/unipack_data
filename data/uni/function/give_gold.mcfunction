@@ -1,2 +1,2 @@
 # {count: int}
-$give @p music_disc_far[max_stack_size=50, item_name={translate: "item.uni.gold", with: ["§e100 §b§lUni"], fallback: "§e100 §b§lUni"}, custom_model_data={strings: ["uni"]}, custom_data={uni: {}}, !jukebox_playable] $(count)
+$give @s music_disc_far[max_stack_size=50, item_name={translate: "item.uni.gold", with: ["§e100 §b§lUni"], fallback: "§e100 §b§lUni"}, custom_model_data={strings: ["uni"]}, custom_data={uni: {}}, !jukebox_playable] $(count)
