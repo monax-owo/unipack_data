@@ -1,5 +1,5 @@
 # if number key
-execute as @s if score @s _cashier_10key_input matches 0.. run function uni:bank/cashier/_input_number
+execute as @s if score @s _cashier_10key_input matches 0.. if score @s _cashier_10key_count matches ..99999 run function uni:bank/cashier/_input_number
 
 # if special key
 # del
