@@ -20,3 +20,6 @@ function uni:give_gold with storage uni:bank money.cashier.gold
 scoreboard players set @a cashier_input 0
 scoreboard players set @a _cashier_bronze 0
 scoreboard players set @a _cashier_gold 0
+
+data remove storage uni:bank money.cashier.gold
+data remove storage uni:bank money.cashier.bronze
