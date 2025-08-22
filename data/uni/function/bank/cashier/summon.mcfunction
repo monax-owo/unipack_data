@@ -1,5 +1,10 @@
 # {rotate: int}
 
+# NORTH = 0
+# SOUTH = 180
+# EAST = 90
+# WEST = -90, 270
+
 scoreboard objectives add _cashier_summon_temp dummy
 
 # set const
