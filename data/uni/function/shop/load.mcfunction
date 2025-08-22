@@ -19,3 +19,5 @@ data modify storage uni:shop stock.items append value {id: "minecraft:bread", tr
 function util:for_data {command: "function uni:shop/_set_zero with storage uni:index for_data_args_0", data: "storage uni:shop stock.items", for_id: 0}
 
 function uni:shop/stock/load
+
+function uni:shop/schedule

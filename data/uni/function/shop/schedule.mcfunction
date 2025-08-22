@@ -3,4 +3,4 @@
 
 function uni:shop/stock/count/start
 
-schedule function uni:shop/stock/count/schedule 20s
+schedule function uni:shop/schedule 20s
