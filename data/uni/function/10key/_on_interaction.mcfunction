@@ -2,7 +2,7 @@
 execute store result score @e[limit=1, sort=nearest, tag=10key_body] _10key_input run data get entity @s data.uni.value
 
 # enter
-execute if score @e[limit=1, sort=nearest, tag=10key_body] _10key_input matches -99 run function uni:10key/_input_enter
+execute if score @e[limit=1, sort=nearest, tag=10key_body] _10key_input matches -99 run function uni:10key/_input/_enter
 
 # other keys
 execute as @e[limit=1, sort=nearest, tag=10key_body] run function uni:10key/_match_keys
