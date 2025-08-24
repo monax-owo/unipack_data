@@ -7,10 +7,3 @@ scoreboard objectives add _cashier_gold dummy
 scoreboard players set @e[tag=cashier] cashier_input 0
 scoreboard players set @e[tag=cashier] _cashier_bronze 0
 scoreboard players set @e[tag=cashier] _cashier_gold 0
-
-# cashier
-scoreboard objectives add _cashier_10key_count dummy
-scoreboard objectives add _cashier_10key_input dummy
-
-# set const
-scoreboard players set #value _cashier_10key_input 10
