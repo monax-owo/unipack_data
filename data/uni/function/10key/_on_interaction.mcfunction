@@ -7,7 +7,7 @@ execute store result score @e[limit=1, sort=nearest, tag=10key_body] _10key_inpu
 # other keys
 execute as @e[limit=1, sort=nearest, tag=10key_body] run function uni:10key/_match_keys
 
-data modify entity @e[limit=1, sort=nearest, type=text_display, tag=10key_body_display] text.extra[0] set value {score: {name: "@e[limit=1, sort=nearest, tag=10key_body]", objective: "_10key_count"}}
+data modify entity @e[limit=1, sort=nearest, type=text_display, tag=10key_display] text.extra[0] set value {score: {name: "@e[limit=1, sort=nearest, tag=10key_body]", objective: "_10key_count"}}
 
 # clear
 data remove entity @s interaction

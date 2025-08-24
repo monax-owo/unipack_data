@@ -1,7 +1,7 @@
 # {rotate_1: int}
 
 # display
-$summon text_display ^0.03125 ^0.3125 ^0.25 {Tags: ["test", "cashier_display"], text: {text: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\n", color: "yellow", extra: [{text: "0"}, {text: " U", color: "aqua", bold: true}]}, alignment: "right", Rotation: [$(rotate_1), 0], background: 0, transformation: {left_rotation: [0,0,0,1], right_rotation: [0,0,0,1], scale: [0.75,0.75,0.75], translation: [0,0,0]}}
+$summon text_display ^0.03125 ^0.3125 ^0.25 {Tags: ["test", "10key_display"], text: {text: "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\n", color: "yellow", extra: [{text: "0"}, {text: " U", color: "aqua", bold: true}]}, alignment: "right", Rotation: [$(rotate_1), 0], background: 0, transformation: {left_rotation: [0,0,0,1], right_rotation: [0,0,0,1], scale: [0.75,0.75,0.75], translation: [0,0,0]}}
 
 # enter 0 del
 summon interaction ^-.3125 ^-.3 ^-.36 {width: .15625, height: .0625, Tags: ["test", "10key_key"], data: {uni: {value: -99}}}
