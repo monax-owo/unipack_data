@@ -1,4 +1,4 @@
-# {rotate: int, function: string, mode: ("register" | "10key")}
+# {rotate: int, function: string, mode: ("register" | "10key"), up: (string | ""), down: (string | ""), mod: (string | "")}
 
 # NORTH = 0
 # SOUTH = 180
@@ -20,6 +20,10 @@ execute store result storage uni:bank _10key_summon_temp.rotate_1 int 1 run scor
 # set args
 $data modify storage uni:bank _10key_summon_temp.function set value "$(function)"
 $data modify storage uni:bank _10key_summon_temp.mode set value "$(mode)"
+
+$data modify storage uni:bank _10key_summon_temp.up set value "$(up)"
+$data modify storage uni:bank _10key_summon_temp.down set value "$(down)"
+$data modify storage uni:bank _10key_summon_temp.mod set value "$(mod)"
 
 # failure
 execute if function uni:10key/_is_not/_10key if function uni:10key/_is_not/_register run return fail
