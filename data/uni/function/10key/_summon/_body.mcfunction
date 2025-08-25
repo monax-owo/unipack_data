@@ -2,9 +2,10 @@
 # rotate_1 = 180
 # rotate_2 = 0
 
-# body
+# summon body
 $summon minecraft:item_display ~ ~ ~ {Tags: ["test", "10key_body"], item: {components: {"minecraft:custom_model_data": {strings: ["$(mode)"]}}, count: 1, id: "minecraft:quartz_slab"}, Rotation: [$(rotate_1), 0], data: {uni: {function: "$(function)"}}}
 
+# summon parts
 $execute rotated $(rotate_2) 0 run function uni:10key/_summon/_parts {rotate_1: $(rotate_1)}
 
 # if 10key mode
