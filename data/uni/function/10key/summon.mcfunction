@@ -21,10 +21,6 @@ execute store result storage uni:bank _10key_summon_temp.rotate_1 int 1 run scor
 $data modify storage uni:bank _10key_summon_temp.function set value "$(function)"
 $data modify storage uni:bank _10key_summon_temp.mode set value "$(mode)"
 
-# match modes
-execute unless function uni:10key/_is_not/_register run say is register
-execute unless function uni:10key/_is_not/_10key run say is 10key
-
 # failure
 execute if function uni:10key/_is_not/_10key if function uni:10key/_is_not/_register run return fail
 
