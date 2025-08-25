@@ -4,6 +4,9 @@ execute store result score @e[limit=1, sort=nearest, tag=10key_body] _10key_inpu
 # enter
 execute if score @e[limit=1, sort=nearest, tag=10key_body] _10key_input matches -99 run function uni:10key/_input/_enter
 
+# if 10key
+execute if data entity @e[limit=1, sort=nearest, tag=10key_body] {data: {uni: {mode: "10key"}}} run function uni:10key/_input/_mod_keys with entity @e[limit=1, sort=nearest, tag=10key_body] data.uni
+
 # other keys
 execute as @e[limit=1, sort=nearest, tag=10key_body] run function uni:10key/_match_keys
 
