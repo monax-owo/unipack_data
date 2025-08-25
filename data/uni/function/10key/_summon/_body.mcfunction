@@ -9,6 +9,6 @@ $summon minecraft:item_display ~ ~ ~ {Tags: ["test", "10key_body"], item: {compo
 $execute rotated $(rotate_2) 0 run function uni:10key/_summon/_parts {rotate_1: $(rotate_1)}
 
 # if 10key mode
-execute unless function uni:10key/_is_not/_10key run function uni:10key/_summon/_modifier_keys
+$execute unless function uni:10key/_is_not/_10key rotated $(rotate_2) 0 run function uni:10key/_summon/_modifier_keys
 
 scoreboard players set @e[limit=1, sort=nearest, tag=10key_body] _10key_count 0
