@@ -1,4 +1,4 @@
-# {rotate: int, function: string}
+# {rotate: int, function: string, mode: ("register" | "10key")}
 
 # NORTH = 0
 # SOUTH = 180
@@ -17,8 +17,16 @@ $data modify storage uni:bank _10key_summon_temp.rotate_2 set value $(rotate)
 scoreboard players operation #value _10key_summon_temp += #180 _10key_summon_temp
 execute store result storage uni:bank _10key_summon_temp.rotate_1 int 1 run scoreboard players get #value _10key_summon_temp
 
-# set function
+# set args
 $data modify storage uni:bank _10key_summon_temp.function set value "$(function)"
+$data modify storage uni:bank _10key_summon_temp.mode set value "$(mode)"
+
+# match modes
+execute unless function uni:10key/_is_not/_register run say is register
+execute unless function uni:10key/_is_not/_10key run say is 10key
+
+# failure
+execute if function uni:10key/_is_not/_10key if function uni:10key/_is_not/_register run return fail
 
 # summon
 function uni:10key/_summon/_body with storage uni:bank _10key_summon_temp
