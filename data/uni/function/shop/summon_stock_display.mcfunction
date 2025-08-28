@@ -1,3 +1,3 @@
 # {index}
 
-$summon minecraft:text_display ~ ~ ~ {Tags: ["stock_display"], alignment: "center", background: 0, data: {uni: {stock_display: {index: $(index)}}}}
+$function uni:shop/summon_stock_display_with_rotate {index: $(index), rotate: 0}
