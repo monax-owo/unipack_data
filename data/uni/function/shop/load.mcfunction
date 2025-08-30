@@ -1,8 +1,4 @@
-data remove storage uni:shop stock.items
-
 data modify storage uni:shop stock merge value {items: []}
-
-# TODO: IDとアイテムのIDを分ける
 
 # template
 # data modify storage uni:shop stock.items append value {id: "", translate: }
