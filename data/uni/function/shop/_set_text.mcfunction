@@ -1,7 +1,5 @@
 # {index}
 
-$say index: $(index)
-
 data modify storage uni:shop stock_temp_0 set value ""
 
 $function uni:shop/_store_translate with storage uni:shop stock.items[$(index)]
