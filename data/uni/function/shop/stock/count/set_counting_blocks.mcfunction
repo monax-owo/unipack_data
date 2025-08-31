@@ -1,3 +1,3 @@
 # {blocks: [""]}
 
-$data modify storage uni:shop stock.counting set value {blocks: $(blocks)}
+$data modify storage uni:world stock.counting set value {blocks: $(blocks)}
