@@ -7,4 +7,4 @@
 #   ]}
 # ]}
 
-$execute rotated $(rotate) 0 positioned ^ ^.5 ^.5 run summon text_display ^ ^ ^ {Rotation: [$(rotate), 0], Tags: ["stock_display"], alignment: "right", background: 0, brightness: {block: 15, sky: 15}, text: {text: "----title----\n", extra: [{text: "description\n"}, {text: " "}]}, data: {uni: {base_index: $(base_index)}}}
+$execute rotated $(rotate) 0 positioned ^ ^.5 ^.5 run summon text_display ^ ^ ^ {Rotation: [$(rotate), 0], Tags: ["stock_display"], alignment: "right", background: 0, brightness: {block: 15, sky: 15}, text: {text: "------在庫表------\n", extra: [{text: "description\n"}, {text: " "}]}, data: {uni: {base_index: $(base_index)}}}
