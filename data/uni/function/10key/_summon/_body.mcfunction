@@ -3,7 +3,7 @@
 # rotate_2 = 0
 
 # summon body
-$summon minecraft:item_display ~ ~ ~ {Tags: ["test", "10key_body"], item: {components: {"minecraft:custom_model_data": {strings: ["$(mode)"]}}, count: 1, id: "minecraft:quartz_slab"}, Rotation: [$(rotate_1), 0]}
+$summon minecraft:item_display ~ ~ ~ {Tags: ["test", "10key_body"], item: {components: {"minecraft:custom_model_data": {strings: ["$(mode)"]}}, count: 1, id: "minecraft:quartz_slab"}, Rotation: [$(rotate_2), 0]}
 
 # set nbt data
 $data modify entity @e[limit=1, sort=nearest, tag=10key_body] data.uni set value {function: "$(function)", mode: "$(mode)"}
@@ -12,9 +12,9 @@ $data modify entity @e[limit=1, sort=nearest, tag=10key_body] data.uni set value
 $execute unless function uni:10key/_is_not/_10key run data modify entity @e[limit=1, sort=nearest, tag=10key_body] data.uni merge value {up: "$(up)", down: "$(down)", mod: "$(mod)"}
 
 # summon parts
-$execute rotated $(rotate_2) 0 run function uni:10key/_summon/_parts {rotate_1: $(rotate_1)}
+$execute rotated $(rotate_1) 0 run function uni:10key/_summon/_parts {rotate_1: $(rotate_2)}
 
 # if 10key mode
-$execute unless function uni:10key/_is_not/_10key rotated $(rotate_2) 0 run function uni:10key/_summon/_modifier_keys
+$execute unless function uni:10key/_is_not/_10key rotated $(rotate_1) 0 run function uni:10key/_summon/_modifier_keys
 
 scoreboard players set @e[limit=1, sort=nearest, tag=10key_body] _10key_count 0
