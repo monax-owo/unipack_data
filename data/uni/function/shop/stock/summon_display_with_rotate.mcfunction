@@ -2,7 +2,7 @@
 
 # text: {text: "title", extra: [
 #   {text: "description"},
-#   {text: "stock count", extra: [
+#   {text: "stock", extra: [
 #     {text: name, extra: [":", number]},
 #   ]}
 # ]}
