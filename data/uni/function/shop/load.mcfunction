@@ -1,4 +1,4 @@
-data modify storage uni:shop stock.items merge value []
+data modify storage uni:shop list.items merge value []
 
 function uni:shop/set_zero
 
