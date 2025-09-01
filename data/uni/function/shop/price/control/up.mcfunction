@@ -1,8 +1,5 @@
-# unfocus target
-data modify storage uni:shop _down_temp.0.focus set value false
-data modify storage uni:shop _down_temp.0.index set from storage uni:shop list.target.index
-
-function uni:shop/price/control/_set_underline with storage uni:shop _down_temp.0
+# set unfocus target
+data modify storage uni:shop _down_temp.index_old set from storage uni:shop list.target.index
 
 # score
 scoreboard objectives add _sub dummy
@@ -21,11 +18,11 @@ execute store result storage uni:shop list.target.index int 1 run scoreboard pla
 # clear
 scoreboard objectives remove _sub
 
-# focus target
-data modify storage uni:shop _down_temp.1.focus set value true
-data modify storage uni:shop _down_temp.1.index set from storage uni:shop list.target.index
+# set focus target
+data modify storage uni:shop _down_temp.index set from storage uni:shop list.target.index
 
-function uni:shop/price/control/_set_underline with storage uni:shop _down_temp.1
+# focus
+function uni:shop/price/control/_focus with storage uni:shop _down_temp
 
 # clear
 data remove storage uni:shop _down_temp
