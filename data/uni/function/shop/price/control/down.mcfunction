@@ -15,9 +15,6 @@ scoreboard players operation #value _add += #const _add
 # store to storage
 execute store result storage uni:shop list.target.index int 1 run scoreboard players get #value _add
 
-# clear
-scoreboard objectives remove _add
-
 # set focus target
 data modify storage uni:shop _up_temp.index set from storage uni:shop list.target.index
 
@@ -25,4 +22,5 @@ data modify storage uni:shop _up_temp.index set from storage uni:shop list.targe
 function uni:shop/price/control/_focus with storage uni:shop _up_temp
 
 # clear
+scoreboard objectives remove _add
 data remove storage uni:shop _up_temp
