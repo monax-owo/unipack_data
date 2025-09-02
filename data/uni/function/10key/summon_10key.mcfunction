@@ -5,4 +5,4 @@
 # EAST = 90
 # WEST = -90, 270
 
-$function uni:10key/_summon_with_mode {rotate: "$(rotate)", function: "$(function)", mode: "10key", up: "$(up)", down: "$(down)", mod: "$(mod)"}
+$function uni:10key/_summon_with_mode {rotate: "$(rotate)", function: "$(function)", mode: "10key", up: "$(up)", down: "$(down)", mod: "$(mod)", external: ""}
