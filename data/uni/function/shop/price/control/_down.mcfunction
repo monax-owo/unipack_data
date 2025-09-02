@@ -1,7 +1,5 @@
 # {index: int, index_old: int}
 
-$say old: $(index_old), new: $(index)
-
 $execute unless data storage uni:shop list.items[$(index)] run return 0
 
 # focus
