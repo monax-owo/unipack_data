@@ -1,5 +1,3 @@
-execute if data storage uni:shop list.target{lock: true} run return 0
-
 # set unfocus target
 data modify storage uni:shop _up_temp.index_old set from storage uni:shop list.target.index
 
