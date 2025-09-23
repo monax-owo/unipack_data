@@ -1,10 +1,10 @@
-# {index, id, position}
+# {index, id, item_id, position}
 
 # get stock count
 $execute store result score #value _stock_count run data get storage uni:shop list.items[{id: "$(id)"}].count
 
 # get item count
-$execute store result score #value _stock_count_temp run data get block $(position) Items[{Slot: $(index)b, id: "$(id)"}].count
+$execute store result score #value _stock_count_temp run data get block $(position) Items[{Slot: $(index)b, id: "$(item_id)"}].count
 
 # adding
 scoreboard players operation #value _stock_count += #value _stock_count_temp
