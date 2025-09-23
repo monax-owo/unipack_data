@@ -1,3 +1,6 @@
+# remove
+data remove storage uni:shop list
+
 # template
 # data modify storage uni:shop list.items append value {id: "", name: , item_ids: []}
 
