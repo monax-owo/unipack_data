@@ -21,3 +21,5 @@ function uni:bank/_util/_store_bronze {count: 20, slot: 14}
 function uni:bank/_util/_store_bronze {count: 30, slot: 15}
 function uni:bank/_util/_store_bronze {count: 40, slot: 16}
 function uni:bank/_util/_store_bronze {count: 50, slot: 17}
+
+function uni:bank/exchanger/load
