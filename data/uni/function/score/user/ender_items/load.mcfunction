@@ -21,3 +21,5 @@ scoreboard objectives add ender_gold_count_index dummy
 
 scoreboard players set @a ender_bronze_count_index 0
 scoreboard players set @a ender_gold_count_index 0
+
+function uni:score/user/ender_items/schedule
