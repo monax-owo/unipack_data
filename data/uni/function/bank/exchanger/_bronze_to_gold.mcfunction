@@ -1,6 +1,6 @@
 # {value: int}
 
-execute if score @s bronze <= @s exchange_value run return 0
+execute if score @s bronze < @s exchange_value run return 0
 
 scoreboard players operation @s exchange_temp_bronze = @s exchange_value
 scoreboard players operation @s exchange_temp_bronze %= #value gold
