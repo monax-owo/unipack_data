@@ -11,12 +11,12 @@ scoreboard players operation @s exchange_temp_bronze *= #value gold
 scoreboard players operation @s exchange_temp_clear = @s exchange_value
 
 execute if score @s exchange_temp_bronze < #1 const run return 0
+execute if score @s exchange_temp_bronze > #5000 const run return 0
 
 # debug
-say exchange_temp_bronze
-tellraw @a {score: {name: "@s", objective: "exchange_temp_bronze"}}
-say exchange_temp_clear
-tellraw @a {score: {name: "@s", objective: "exchange_temp_clear"}}
+# tellraw @a {score: {name: "@s", objective: "exchange_temp_bronze"}}
+# tellraw @a {score: {name: "@s", objective: "exchange_temp_gold"}}
+# tellraw @a {score: {name: "@s", objective: "exchange_temp_clear"}}
 
 # store to storage
 execute store result storage uni:bank exchanger_temp.bronze.count int 1 run scoreboard players get @s exchange_temp_bronze
