@@ -7,4 +7,4 @@
 #   ]}
 # ]}
 
-$execute rotated $(rotate) 0 positioned ^ ^.5 ^.5 run summon text_display ^ ^ ^ {Rotation: [$(rotate), 0], Tags: ["price_display", "uni_display"], alignment: "right", background: 0, brightness: {block: 15, sky: 15}, text: {text: "------価格表------\n", extra: [{text: "\n"}, {text: " "}]}, data: {uni: {base_index: $(base_index)}}}
+$execute rotated $(rotate) 0 positioned ^ ^.5 ^.5 run summon text_display ^ ^ ^ {Rotation: [$(rotate), 0], Tags: ["price_display", "uni_display", "test"], alignment: "right", background: 0, brightness: {block: 15, sky: 15}, text: {text: "------価格表------\n", extra: [{text: "\n"}, {text: " "}]}, data: {uni: {base_index: $(base_index)}}}
