@@ -1,9 +1,6 @@
 {
   "values": [
-    "uni:10key/load",
-    "uni:bank/load",
-    "uni:score/load",
-    "uni:shop/load",
-    "util:load"
+    "#uni:load",
+    "#util:load"
   ]
 }
