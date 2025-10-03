@@ -15,6 +15,7 @@
   },
   "rewards": {
     "recipes": [
+      "minecraft:anvil",
       "uni:elytra",
       "uni:enchanted_book/blast_protection",
       "uni:enchanted_book/channeling",
