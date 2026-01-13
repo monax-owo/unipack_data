@@ -1,7 +1,14 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:gold_ingot"
+      "id": "gold_ingot",
+      "components": {
+        "custom_model_data": {
+          "strings": [
+            "uni"
+          ]
+        }
+      }
     },
     "title": "お金持ち",
     "description": "初めて通貨を手にする"
