@@ -1,6 +1,7 @@
 {
   "display": {
     "icon": {
+<<<<<<< HEAD
       "id": "gold_ingot",
       "components": {
         "custom_model_data": {
@@ -9,6 +10,9 @@
           ]
         }
       }
+=======
+      "id": "gold_ingot"
+>>>>>>> d5cf605b90ac4c7913b66f0e8d4222ca41573209
     },
     "title": "お金持ち",
     "description": "初めて通貨を手にする"
